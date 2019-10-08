@@ -35,7 +35,7 @@ App ( F dispComents F addBook)  | 2x state -> books, comments to disply (for cli
     Comments (-> comments (state), books (state), addComment, deleteBook, books, deleteAllBooks) | 1x state (value for input)
 */
 
-//redux chrome extensions has to be installed!!!!!!
+//redux chrome extension has to be installed!!!!!!
 
 function NewBookForm({ addBook }) {
   const [value, setValue] = useState("");
